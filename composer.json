@@ -1,0 +1,22 @@
+{
+    "name": "heartsentwined/background-exec",
+    "description": "Close a client HTTP connection and continue script execution in background.",
+    "license": "GPL-3.0",
+    "keywords": ["file", "directory", "dir", "manager", "system"],
+    "homepage": "https://github.com/heartsentwined/background-exec",
+    "authors": [
+        {
+            "name": "heartsentwined",
+            "email": "heartsentwined@cogito-lab.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Heartsentwined\\BackgroundExec": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.3"
+    }
+}
