@@ -23,12 +23,7 @@ class BackgroundExec
             ob_end_flush();     // Strange behaviour, will not work
             flush();            // Unless both are called !
             ob_end_clean();
-
-            //do processing here
-            //sleep(5);
-
             //echo('Text user will never see');
-            //do some processing
         } catch (\Exception $e) {
         }
     }
