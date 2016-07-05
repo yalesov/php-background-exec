@@ -9,7 +9,7 @@ Close a client HTTP connection and continue script execution in background.
 ```json
 {
     "require": {
-        "yalesov/background-exec": "1.*"
+        "yalesov/background-exec": "2.*"
     }
 }
 ```
