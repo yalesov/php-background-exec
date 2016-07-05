@@ -1,4 +1,4 @@
-# Heartsentwined\BackgroundExec
+# Yalesov\BackgroundExec
 
 Close a client HTTP connection and continue script execution in background.
 
@@ -9,7 +9,7 @@ Close a client HTTP connection and continue script execution in background.
 ```json
 {
     "require": {
-        "heartsentwined/background-exec": "1.*"
+        "yalesov/background-exec": "1.*"
     }
 }
 ```
@@ -17,6 +17,6 @@ Close a client HTTP connection and continue script execution in background.
 # Usage
 
 ```php
-use Heartsentwined\BackgroundExec\BackgroundExec;
+use Yalesov\BackgroundExec\BackgroundExec;
 BackgroundExec::start();
 ```

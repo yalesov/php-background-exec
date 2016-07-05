@@ -1,5 +1,5 @@
 <?php
-namespace Heartsentwined\BackgroundExec;
+namespace Yalesov\BackgroundExec;
 
 class BackgroundExec
 {
